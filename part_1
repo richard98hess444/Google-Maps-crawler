@@ -1,0 +1,4 @@
+import codecs
+f = codecs.open("test_data.txt", 'r', 'utf-8')
+location = f.read()
+f.close()
